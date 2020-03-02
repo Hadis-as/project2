@@ -1,0 +1,192 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box
+        }
+        
+        .logo i {
+            background-color: orangered;
+            border-radius: 100%;
+            padding-top: 6%;
+            padding-right: 4%;
+            padding-left: 4%;
+            padding-bottom: 1%;
+            margin: 0 auto;
+            font-size: 25px;
+            color: wheat;
+            position: absolute;
+            top: -10%;
+            left: 45%;
+            border: 15px solid white
+        }
+        
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        
+        .col-1 {
+            width: 8.33%;
+        }
+        
+        .col-2 {
+            width: 16.66%;
+        }
+        
+        .col-3 {
+            width: 25%;
+        }
+        
+        .col-4 {
+            width: 33.33%;
+        }
+        
+        .col-5 {
+            width: 41.66%;
+        }
+        
+        .col-6 {
+            width: 50%;
+        }
+        
+        .col-7 {
+            width: 58.33%;
+        }
+        
+        .col-8 {
+            width: 66.66%;
+        }
+        
+        .col-9 {
+            width: 75%;
+        }
+        
+        .col-10 {
+            width: 83.33%;
+        }
+        
+        .col-11 {
+            width: 91.66%;
+        }
+        
+        .col-12 {
+            width: 100%;
+        }
+        
+        @media only screen and (max-width: 740px) {
+            /* For mobile phones: */
+            [class*="col-"] {
+                width: 50%;
+            }
+            .logo i {
+                background-color: orangered;
+                border-radius: 100%;
+                padding-top: 8%;
+                padding-right: 4%;
+                padding-left: 4%;
+                padding-bottom: 1%;
+                margin: 0 auto;
+                font-size: 20px;
+                color: wheat;
+                position: absolute;
+                top: -9%;
+                left: 42%;
+                border: 15px solid white
+            }
+        }
+        
+        @media only screen and (max-width: 480px) {
+            /* For mobile phones: */
+            [class*="col-"] {
+                width: 100%;
+            }
+        }
+        
+        [class*="col-"] {
+            float: left;
+            padding: 6% 1%
+        }
+        
+        .row {
+            padding: 2% 2%;
+            margin-top: -5%
+        }
+        
+        .imgg {}
+        
+        .imgg img {
+            width: 100%;
+            border-radius: 4%;
+            padding: 3% 0
+        }
+        
+        footer {
+            background: linear-gradient(to bottom, rgb(189, 15, 15), rgb(243, 38, 38));
+            height: 115vh;
+            width: 100%;
+            filter: opacity(80%);
+            padding: 2% 5%;
+            position: relative;
+        }
+        
+        footer h2 {
+            padding: 3.5% 3%;
+            color: wheat;
+            text-align: center;
+            font-size: 35px;
+            font-weight: normal
+        }
+        
+        footer p {
+            padding: 2% 0;
+            text-align: center;
+            color: rgb(197, 191, 179);
+            font-size: 25px;
+            font-weight: lighter
+        }
+        
+        footer i {
+            color: white;
+            font-size: 35px;
+            padding: 3% 1%;
+        }
+        
+        .social {
+            display: flex;
+            justify-content: center
+        }
+        
+        hr {
+            width: 70%;
+            color: rgb(116, 113, 113);
+            margin: 3% auto;
+            opacity: 80%;
+        }
+        
+        footer p span {
+            text-decoration: underline dotted rgb(136, 139, 143)
+        }
+        
+        @media only screen and (max-width: 480px) {
+            footer i {
+                color: white;
+                font-size: 25px;
+                padding: 3% 2%;
+            }
+            .logo i {
+                background-color: orangered;
+                border-radius: 100%;
+                padding-top: 8%;
+                padding-right: 4%;
+                padding-left: 4%;
+                padding-bottom: 1%;
+                margin: 0 auto;
+                font-size: 15px;
+                color: wheat;
+                position: absolute;
+                top: -5.3%;
+                left: 38%;
+                border: 13px solid white
+            }
+        }
